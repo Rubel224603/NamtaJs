@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title	>NAMTA js</title>
+		<link rel="icon" href="me.jpg"/>
+</head>
+<body>
+	<h1>
+		nAMTA 
+	</h1>
+	<input type="number" id="inputNumber" placeholder="enter Your Number" />
+	<input type="button" id="btn" value="Check " />
+	<h1 id="show"></h1>
+	<script type="text/javascript">
+		
+		
+		 document.getElementById("btn").addEventListener("click",function(){
+			var initalNumb = Number(document.getElementById("inputNumber").value);
+			
+			
+			
+			
+			for(i=1;i<=10;i++){
+				document.write(initalNumb+" X "+i+" = "+initalNumb*i+"<br />");
+			}
+		 });
+	</script>
+</body>
+</html>
